@@ -1,1 +1,1 @@
-# LearningProject
+# Rock Paper Scissors Project

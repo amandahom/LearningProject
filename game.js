@@ -1,12 +1,12 @@
-// Declaring the elements of the game in an array
+// Declaring the elements in RPS
 const options=["rock","paper","scissors"]
 
-// This function is to simulate the computer's play
+// Stimulates the computer's play
 function computerPlay() {
     return options[Math.floor(Math.random()*3)];
 }
 
-// This function is to calculate the result for one round of RPS
+// Calculate the result for one round
 function gamePlay(playerSelection,computerSelection) {
     let result;
     switch(playerSelection) {
